@@ -1,5 +1,3 @@
-import './style.css';
-
 async function fetchDataFromAPIEndPoint() {
   const cards = await fetch('/api/fetchNotion')
     .then((response) => response.json())
